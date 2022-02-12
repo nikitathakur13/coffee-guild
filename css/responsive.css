@@ -265,6 +265,9 @@
         padding-top: 12px;
         padding-bottom: 40px;
     }
+    .counter-number-wrapper {
+       padding: 80px 20px;
+    }
     .box {
         padding-bottom: 25px;
     }
@@ -304,6 +307,11 @@
         padding-bottom: 100px;
     }
 }
+@media screen and (max-width: 575px) {
+    .counter-number-wrapper {
+        padding: 35px 20px;
+    }
+}
 @media screen and (max-width: 506px) {
     body {
         overflow-x: hidden;
@@ -340,6 +348,9 @@
     .eq:nth-of-type(2) {
         background: #A66953;
         color:#EFE1D6;
+    }
+    .counter-number-wrapper {
+        padding: 30px 20px;
     }
     .counter-number, .sign-up {
         margin-bottom: 90px;
@@ -399,6 +410,9 @@
         padding-top: 12px;
         padding-bottom: 40px;
     }
+    .counter-number-wrapper {
+        padding: 25px 20px;
+     }
     .img-container {
         grid-template-columns: repeat(6 ,1fr);
         grid-gap: 5px;
@@ -469,7 +483,7 @@
         padding-bottom: 40px;
     }
     .counter-number-wrapper {
-       padding: 20px 10px;
+       padding: 20px;
     }
     .counter-number-wrapper h1 {
         font-size: 2.7rem;
