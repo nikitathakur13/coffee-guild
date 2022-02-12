@@ -11,6 +11,7 @@ html {
 }
 body {
 	font-family: 'Montserrat', sans-serif;
+	overflow-x: hidden;
 }
 a{
 	text-decoration:none;
@@ -340,17 +341,18 @@ figure.products-details.hover:after {
 /********** OUR PRODUCTS ENDS **********/
 .counter-number {
 	background-color: #EFE1D6;
-	padding: 100px;
 	margin-bottom: 160px;
-	/* animation: bg-change 5s infinite; */
 }
-.counter-number i {
+.counter-number-wrapper {
+	padding: 100px 20px;
+}
+.counter-number-wrapper i {
 	display: inline;
 	font-size: 1.1rem;
 	color: #A66953;
 	margin-right: 5px;
 }
-.counter-number span {
+.counter-number-wrapper span {
 	font-size: 1.1rem;
 	letter-spacing: 2px;
 	font-weight: 500;
@@ -493,11 +495,11 @@ figure.products-details.hover:after {
 .find-us {
 	background:  linear-gradient(rgba(217, 195, 176, 0.2), rgba(217, 195, 176, 0.6)), url(../images/find-us-bg.jpg) center no-repeat;
  	background-size: cover;
-	min-height: 750px;
+	min-height: 740px;
 }
 .find-us-container {
 	background-color: rgba(255, 255, 255, 0.4);
-	width: 750px;
+	width: 850px;
 	margin: 0px auto;
 	padding: 30px 0;
 }

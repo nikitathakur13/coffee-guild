@@ -2,13 +2,25 @@
     html{
         font-size: 0.98rem;
     }
+    .counter-number, .sign-up {
+        margin-bottom: 150px;
+    }
+    .services, .our-products, .photo-grid {
+        padding-bottom: 150px;
+    }
 }
 @media only screen and (max-width:1023px){
     html{
         font-size: 0.92rem;
     }
+    body {
+        overflow-x: hidden;
+    }
     .nav-bar ul li a {
         margin: 10px 18px;
+    }
+    .text-middle h2, .text-middle span:before {
+        font-size: 3.5rem;
     }
     .sign-up-input {
         padding: 10px;
@@ -18,14 +30,26 @@
     .sign-up-btn {
         height: 45px;
     }
+    .find-us { 
+        min-height: 730px;
+    }
     .find-us-container {
-        width: 700px;
+        width: 780px;
         padding: 25px 0;
+    }
+    .counter-number, .sign-up {
+        margin-bottom: 145px;
+    }
+    .services, .our-products, .photo-grid {
+        padding-bottom: 145px;
     }
 }   
 @media only screen and (max-width:992px){
     html{
         font-size: 0.89rem;
+    }
+    body {
+        overflow-x: hidden;
     }
     .btn {
         width: 120px;
@@ -39,7 +63,7 @@
         font-size: 3.5rem;
     }
     .our-mission {
-        padding: 55px 20px;
+        padding: 50px 20px;
     }
     .sign-up-input {
         width: 220px;
@@ -51,14 +75,29 @@
     .img-container {
         grid-auto-rows: 170px 290px;
     }
+    .find-us { 
+        min-height: 720px;
+    }
     .find-us-container {
         width: 800px;
     }
     footer {
         padding-top: 90px;
     }
+    .counter-number, .sign-up {
+        margin-bottom: 130px;
+    }
+    .services, .our-products, .photo-grid {
+        padding-bottom: 130px;
+    }
 }
 @media only screen and (max-width:915px){
+    body {
+        overflow-x: hidden;
+    }
+    .find-us { 
+        min-height: 690px;
+    }
     .find-us-container {
         width: 700px;
     }
@@ -66,6 +105,9 @@
 @media only screen and (max-width:873px){
     html{
         font-size: 0.85rem;
+    }
+    body {
+        overflow-x: hidden;
     }
     .btn {
         width: 100px;
@@ -86,6 +128,12 @@
         height: 41px;
         padding: 10px;
     }
+    .find-us { 
+        min-height: 640px;
+    }
+    .find-us-container {
+        width: 690px;
+    }
     footer {
         padding-top: 80px;
     }
@@ -96,10 +144,19 @@
     .footer-text {
         margin-top: 14px;
     }
+    .counter-number, .sign-up {
+        margin-bottom: 125px;
+    }
+    .services, .our-products, .photo-grid {
+        padding-bottom: 125px;
+    }
 }
 @media only screen and (max-width:767px) {
     html{
         font-size: 0.76rem;
+    }
+    body {
+        overflow-x: hidden;
     }
     .btn {
         width: 96px;
@@ -117,9 +174,6 @@
     .text-middle h2, .text-middle span:before {
         font-size: 2.9rem;
     }
-    .services, #our-products, .photo-grid, .sign-up  {
-        padding-bottom: 120px;
-    }
     .services i {
         padding-bottom: 12px;
     }
@@ -129,12 +183,12 @@
     .eq {
         padding: 50px 0;
     }
-    #our-products {
-        padding: 60px 0 60px 0;
-    }
     .img-container {
         grid-auto-rows: 140px 240px;
         grid-gap: 5px;
+    }
+    .find-us { 
+        min-height: 580px;
     }
     .find-us-container {
         width: 620px;
@@ -147,6 +201,12 @@
     }
     .footer-text {
         margin-top: 10px;
+    }
+    .counter-number, .sign-up {
+        margin-bottom: 120px;
+    }
+    .services, .our-products, .photo-grid {
+        padding-bottom: 120px;
     }
 }
 @media screen and (max-width: 600px) {
@@ -186,9 +246,6 @@
     .text-middle h2, .text-middle span:before {
         font-size: 2.5rem;
     }
-    .services, #our-products, .photo-grid, .sign-up  {
-        padding-bottom: 75px;
-    }
     .services i {
         font-size: 1.7rem;
         padding-bottom: 8px;
@@ -225,6 +282,9 @@
         height: 38px;
         width: 99px;
     }
+    .find-us { 
+        min-height: 560px;
+    }
     .find-us-container {
         width: 480px;
         margin: 0px auto;
@@ -237,8 +297,17 @@
     .footer-text {
         margin-top: 10px;
     }
+    .counter-number, .sign-up {
+        margin-bottom: 100px;
+    }
+    .services, .our-products, .photo-grid {
+        padding-bottom: 100px;
+    }
 }
 @media screen and (max-width: 506px) {
+    body {
+        overflow-x: hidden;
+    }
     .our-mission {
         padding: 30px 10px;
     }
@@ -272,10 +341,26 @@
         background: #A66953;
         color:#EFE1D6;
     }
+    .counter-number, .sign-up {
+        margin-bottom: 90px;
+    }
+    .services, .our-products, .photo-grid {
+        padding-bottom: 90px;
+    }
+    .find-us { 
+        min-height: 530px;
+    }
+    .find-us-container {
+        width: 410px;
+        margin: 0px auto;
+    }
 }
 @media screen and (max-width: 428px) and (min-width:390px) {
     html{
         font-size: 0.67rem;
+    }
+    body {
+        overflow-x: hidden;
     }
     .services, #our-products, .photo-grid, .sign-up  {
         padding-bottom: 60px;
@@ -328,10 +413,12 @@
         height: 37px;
         width: 80px;
     }
+    .find-us { 
+        min-height: 520px;
+    }
     .find-us-container {
-        width: 340px;
+        width: 310px;
         margin: 0px auto;
-        padding: 16px 0;
     }
     footer {
         padding-top: 50px;
@@ -348,18 +435,24 @@
     .icons-bg i {
         font-size: 1rem;
     }
+    .counter-number, .sign-up {
+        margin-bottom: 70px;
+    }
+    .services, .our-products, .photo-grid {
+        padding-bottom: 70px;
+    }
 }
 @media screen and (max-width: 389px) and (min-width:320px) {
     html{
         font-size: 0.60rem;
     }
+    body {
+        overflow-x: hidden;
+    }
     .btn {
         width: 86px;
         margin-top: 20px;
         margin-right: 6px;
-    }
-    .services, #our-products, .photo-grid, .sign-up  {
-        padding-bottom: 50px;
     }
     .logo-img {
         width: 135px;
@@ -375,6 +468,12 @@
         padding-top: 12px;
         padding-bottom: 40px;
     }
+    .counter-number-wrapper {
+       padding: 20px 10px;
+    }
+    .counter-number-wrapper h1 {
+        font-size: 2.7rem;
+    }
     .img-container {
         grid-template-columns: repeat(6 ,1fr);
         grid-gap: 5px;
@@ -386,8 +485,11 @@
         height: 37px;
         width: 75px;
     }
+    .find-us { 
+        min-height: 480px;
+    }
     .find-us-container {
-        width: 260px;
+        width:300px;
     }
     footer {
         padding-top: 50px;
@@ -403,5 +505,11 @@
     }
     .icons-bg i {
         font-size: 1rem;
+    }
+    .counter-number, .sign-up {
+        margin-bottom: 60px;
+    }
+    .services, .our-products, .photo-grid {
+        padding-bottom: 60px;
     }
 }
