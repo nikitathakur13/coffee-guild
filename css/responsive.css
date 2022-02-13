@@ -605,6 +605,10 @@
     /* body::-webkit-scrollbar {
         display: none;
     } */
+    .heading, .photo-grid h4, .sign-up-container h4 {
+        font-size: 2.2rem;
+        padding-bottom: 20px
+    }
     .btn {
         width: 86px;
         margin-top: 20px;
@@ -621,7 +625,7 @@
         font-size: 2.2rem;
     }
     .text-middle .change-text {
-        width: 25%;
+        width: 28%;
     }
     .product-heading {
         font-size: 2rem;
