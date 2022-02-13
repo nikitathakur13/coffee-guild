@@ -1,16 +1,18 @@
 @media only screen and (max-width:1200px){
-    html{
+    html, body{
         font-size: 0.98rem;
+        overflow-x: hidden;
     }
     body {
-	    overflow-x: hidden;
+	    /* overflow-x: hidden;
 	    overflow-y: scroll;
 	    -ms-overflow-style: none;
-	    scrollbar-width: none; 
+	    scrollbar-width: none;  */
+        position: relative;
     }
-    body::-webkit-scrollbar {
+    /* body::-webkit-scrollbar {
         display: none;
-    }
+    } */
     .counter-number, .sign-up {
         margin-bottom: 150px;
     }
@@ -19,14 +21,16 @@
     }
 }
 @media only screen and (max-width:1023px){
-    html{
+    html, body{
         font-size: 0.92rem;
+        overflow-x: hidden;
     }
     body {
-	    overflow-x: hidden;
+	    /* overflow-x: hidden;
 	    overflow-y: scroll;
 	    -ms-overflow-style: none;
-	    scrollbar-width: none; 
+	    scrollbar-width: none;  */
+        position: relative;
     }
     body::-webkit-scrollbar {
         display: none;
@@ -65,12 +69,14 @@
 @media only screen and (max-width:992px){
     html{
         font-size: 0.89rem;
+        overflow-x: hidden;
     }
     body {
-	    overflow-x: hidden;
+	    /* overflow-x: hidden;
 	    overflow-y: scroll;
 	    -ms-overflow-style: none;
-	    scrollbar-width: none; 
+	    scrollbar-width: none;  */
+        position: relative;
     }
     body::-webkit-scrollbar {
         display: none;
@@ -120,10 +126,11 @@
 }
 @media only screen and (max-width:915px){
     body {
-	    overflow-x: hidden;
+	    /* overflow-x: hidden;
 	    overflow-y: scroll;
 	    -ms-overflow-style: none;
-	    scrollbar-width: none; 
+	    scrollbar-width: none;  */
+        position: relative;
     }
     body::-webkit-scrollbar {
         display: none;
@@ -136,14 +143,16 @@
     }
 }
 @media only screen and (max-width:873px){
-    html{
+    html,body{
         font-size: 0.85rem;
+        overflow-x: hidden;
     }
     body {
-	    overflow-x: hidden;
+	    /* overflow-x: hidden;
 	    overflow-y: scroll;
 	    -ms-overflow-style: none;
-	    scrollbar-width: none; 
+	    scrollbar-width: none;  */
+        position: relative;
     }
     body::-webkit-scrollbar {
         display: none;
@@ -194,14 +203,16 @@
     }
 }
 @media only screen and (max-width:767px) {
-    html{
+    html, body{
         font-size: 0.76rem;
+        overflow-x: hidden;
     }
     body {
-	    overflow-x: hidden;
+	    /* overflow-x: hidden;
 	    overflow-y: scroll;
 	    -ms-overflow-style: none;
-	    scrollbar-width: none; 
+	    scrollbar-width: none;  */
+        position: relative;
     }
     body::-webkit-scrollbar {
         display: none;
@@ -265,14 +276,16 @@
     }
 }
 @media screen and (max-width: 600px) {
-    html {
+    html, body {
         font-size: 0.72rem;
+        overflow-x: hidden;
     }
     body {
-	    overflow-x: hidden;
+	    /* overflow-x: hidden;
 	    overflow-y: scroll;
 	    -ms-overflow-style: none;
-	    scrollbar-width: none; 
+	    scrollbar-width: none;  */
+        position: relative;
     }
     body::-webkit-scrollbar {
         display: none;
@@ -385,10 +398,11 @@
 }
 @media screen and (max-width: 506px) {
     body {
-	    overflow-x: hidden;
+	    /* overflow-x: hidden;
 	    overflow-y: scroll;
 	    -ms-overflow-style: none;
-	    scrollbar-width: none; 
+	    scrollbar-width: none;  */
+        position: relative;
     }
     body::-webkit-scrollbar {
         display: none;
@@ -457,14 +471,16 @@
     }
 }
 @media screen and (max-width: 428px) {
-    html{
+    html, body{
         font-size: 0.67rem;
+        overflow-x: hidden;
     }
     body {
-	    overflow-x: hidden;
+	    /* overflow-x: hidden;
 	    overflow-y: scroll;
 	    -ms-overflow-style: none;
-	    scrollbar-width: none; 
+	    scrollbar-width: none;  */
+        position: relative;
     }
     body::-webkit-scrollbar {
         display: none;
@@ -575,25 +591,27 @@
     }
 }
 @media screen and (max-width: 390px) and (min-width:340px) {
-    html{
+    html, body{
         font-size: 0.60rem;
+        overflow-x: hidden;
     }
     body {
-	    overflow-x: hidden;
+	    /* overflow-x: hidden;
 	    overflow-y: scroll;
 	    -ms-overflow-style: none;
-	    scrollbar-width: none; 
+	    scrollbar-width: none;  */
+        position: relative;
     }
-    body::-webkit-scrollbar {
+    /* body::-webkit-scrollbar {
         display: none;
-    }
+    } */
     .btn {
         width: 86px;
         margin-top: 20px;
         margin-right: 6px;
     }
     .logo-img {
-        width: 135px;
+        width: 30%;
     }
     .nav-bar ul li a {
         font-size: 1.1rem;
@@ -603,7 +621,7 @@
         font-size: 2.2rem;
     }
     .text-middle .change-text {
-        width: 100px;
+        width: 25%;
     }
     .product-heading {
         font-size: 2rem;
@@ -643,7 +661,7 @@
         min-height: 480px;
     }
     .find-us-container {
-        width:300px;
+        width: 80%;
     }
     footer {
         padding-top: 50px;
