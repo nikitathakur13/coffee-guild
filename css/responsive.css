@@ -19,8 +19,11 @@
     .nav-bar ul li a {
         margin: 10px 18px;
     }
-    .text-middle h2, .text-middle span:before {
+    .text-middle h2, .text-middle .change-text {
         font-size: 3.5rem;
+    }
+    .text-middle .change-text {
+        width: 240px;
     }
     .sign-up-input {
         padding: 10px;
@@ -59,8 +62,11 @@
     .logo-img {
         width: 200px;
     }
-    .text-middle h2, .text-middle span:before {
+    .text-middle h2, .text-middle .change-text {
         font-size: 3.5rem;
+    }
+    .text-middle .change-text {
+        width: 230px;
     }
     .our-mission {
         padding: 50px 20px;
@@ -121,6 +127,9 @@
     .our-mission {
         padding: 50px 20px;
     }
+    .text-middle .change-text {
+        width: 220px;
+    }
     .sign-up-input {
         width: 200px;
     }
@@ -171,8 +180,8 @@
     .our-mission {
         padding: 45px 20px;
     }
-    .text-middle h2, .text-middle span:before {
-        font-size: 2.9rem;
+    .text-middle .change-text {
+        width: 200px;
     }
     .services i {
         padding-bottom: 12px;
@@ -250,8 +259,11 @@
     .our-mission {
         padding: 40px 20px;
     }
-    .text-middle h2, .text-middle span:before {
-        font-size: 2.5rem;
+    .text-middle h2, .text-middle .change-text {
+        font-size: 3rem;
+    }
+    .text-middle .change-text {
+        width: 160px;
     }
     .services i {
         font-size: 1.7rem;
@@ -333,6 +345,12 @@
     .our-mission {
         padding: 30px 10px;
     }
+    .text-middle h2, .text-middle .change-text {
+        font-size: 2.5rem;
+    }
+    .text-middle .change-text {
+        width: 130px;
+    }
     .services i {
         font-size: 1.8rem;
         padding-bottom: 12px;
@@ -405,11 +423,14 @@
     .nav-bar ul li a {
         font-size: 1.3rem;
     }
-    .text-middle h2, .text-middle span:before {
-        font-size: 2rem;
-    }
     .our-mission {
         padding: 30px 10px;
+    }
+    .text-middle h2, .text-middle .change-text {
+        font-size: 2.5rem;
+    }
+    .text-middle .change-text {
+        width: 130px;
     }
     .services i {
         font-size: 1.8rem;
@@ -503,8 +524,11 @@
         font-size: 1.1rem;
         margin: 16px 4px;
     }
-    .text-middle h2, .text-middle span:before {
-        font-size: 1.9rem;
+    .text-middle h2, .text-middle .change-text {
+        font-size: 2.2rem;
+    }
+    .text-middle .change-text {
+        width: 100px;
     }
     .product-text {
         width: 290px;
