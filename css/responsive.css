@@ -2,6 +2,15 @@
     html{
         font-size: 0.98rem;
     }
+    body {
+	    overflow-x: hidden;
+	    overflow-y: scroll;
+	    -ms-overflow-style: none;
+	    scrollbar-width: none; 
+    }
+    body::-webkit-scrollbar {
+        display: none;
+    }
     .counter-number, .sign-up {
         margin-bottom: 150px;
     }
@@ -14,7 +23,13 @@
         font-size: 0.92rem;
     }
     body {
-        overflow-x: hidden;
+	    overflow-x: hidden;
+	    overflow-y: scroll;
+	    -ms-overflow-style: none;
+	    scrollbar-width: none; 
+    }
+    body::-webkit-scrollbar {
+        display: none;
     }
     .nav-bar ul li a {
         margin: 10px 18px;
@@ -52,7 +67,13 @@
         font-size: 0.89rem;
     }
     body {
-        overflow-x: hidden;
+	    overflow-x: hidden;
+	    overflow-y: scroll;
+	    -ms-overflow-style: none;
+	    scrollbar-width: none; 
+    }
+    body::-webkit-scrollbar {
+        display: none;
     }
     .btn {
         width: 120px;
@@ -99,7 +120,13 @@
 }
 @media only screen and (max-width:915px){
     body {
-        overflow-x: hidden;
+	    overflow-x: hidden;
+	    overflow-y: scroll;
+	    -ms-overflow-style: none;
+	    scrollbar-width: none; 
+    }
+    body::-webkit-scrollbar {
+        display: none;
     }
     .find-us { 
         min-height: 690px;
@@ -113,7 +140,13 @@
         font-size: 0.85rem;
     }
     body {
-        overflow-x: hidden;
+	    overflow-x: hidden;
+	    overflow-y: scroll;
+	    -ms-overflow-style: none;
+	    scrollbar-width: none; 
+    }
+    body::-webkit-scrollbar {
+        display: none;
     }
     .btn {
         width: 100px;
@@ -165,7 +198,13 @@
         font-size: 0.76rem;
     }
     body {
-        overflow-x: hidden;
+	    overflow-x: hidden;
+	    overflow-y: scroll;
+	    -ms-overflow-style: none;
+	    scrollbar-width: none; 
+    }
+    body::-webkit-scrollbar {
+        display: none;
     }
     .btn {
         width: 96px;
@@ -230,7 +269,13 @@
         font-size: 0.72rem;
     }
     body {
-        overflow-x: hidden;
+	    overflow-x: hidden;
+	    overflow-y: scroll;
+	    -ms-overflow-style: none;
+	    scrollbar-width: none; 
+    }
+    body::-webkit-scrollbar {
+        display: none;
     }
     .btn {
         width: 86px;
@@ -340,7 +385,13 @@
 }
 @media screen and (max-width: 506px) {
     body {
-        overflow-x: hidden;
+	    overflow-x: hidden;
+	    overflow-y: scroll;
+	    -ms-overflow-style: none;
+	    scrollbar-width: none; 
+    }
+    body::-webkit-scrollbar {
+        display: none;
     }
     .our-mission {
         padding: 30px 10px;
@@ -410,7 +461,13 @@
         font-size: 0.67rem;
     }
     body {
-        overflow-x: hidden;
+	    overflow-x: hidden;
+	    overflow-y: scroll;
+	    -ms-overflow-style: none;
+	    scrollbar-width: none; 
+    }
+    body::-webkit-scrollbar {
+        display: none;
     }
     .services, #our-products, .photo-grid, .sign-up  {
         padding-bottom: 60px;
@@ -458,6 +515,18 @@
     } */
     .product-btn {
         padding: 5px;
+    }
+    .product-heading {
+        font-size: 2.2rem;
+    }
+    .product-description {
+        font-size: 1.7rem;
+        padding-bottom: 6px;
+    }
+    .product-text {
+        width: 280px;
+        padding-top: 12px;
+        padding-bottom: 40px;
     }
     .counter-number-wrapper {
         padding: 25px 20px;
@@ -510,7 +579,13 @@
         font-size: 0.60rem;
     }
     body {
-        overflow-x: hidden;
+	    overflow-x: hidden;
+	    overflow-y: scroll;
+	    -ms-overflow-style: none;
+	    scrollbar-width: none; 
+    }
+    body::-webkit-scrollbar {
+        display: none;
     }
     .btn {
         width: 86px;
@@ -530,8 +605,15 @@
     .text-middle .change-text {
         width: 100px;
     }
+    .product-heading {
+        font-size: 2rem;
+    }
+    .product-description {
+        font-size: 1.5rem;
+        padding-bottom: 6px;
+    }
     .product-text {
-        width: 290px;
+        width: 90px;
         padding-top: 12px;
         padding-bottom: 40px;
     }
@@ -540,7 +622,7 @@
         max-width: 215px;
     } */
     .product-btn {
-        padding: 5px;
+        padding: 6px;
     }
     .counter-number-wrapper {
        padding: 20px;
@@ -585,5 +667,16 @@
     }
     .services, .our-products, .photo-grid {
         padding-bottom: 60px;
+    }
+}
+@media screen and (max-width: 320px)  {
+    body {
+	    overflow-x: hidden;
+	    overflow-y: scroll;
+	    -ms-overflow-style: none;
+	    scrollbar-width: none; 
+    }
+    body::-webkit-scrollbar {
+        display: none;
     }
 }
