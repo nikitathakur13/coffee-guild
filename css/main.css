@@ -353,8 +353,11 @@ figure.products-details.hover:after {
 .counter-number {
 	background-color: #EFE1D6;
 	margin-bottom: 160px;
-	padding: 60px 20px;
+	min-height: fit-content;
 }
+/* .counter-number-wrapper {
+	padding: 100px 20px;
+} */
 .counter-number-wrapper i {
 	display: inline;
 	font-size: 1.1rem;
