@@ -456,7 +456,7 @@
         margin: 0px auto;
     }
 }
-@media screen and (max-width: 428px) and (min-width:390px) {
+@media screen and (max-width: 428px) {
     html{
         font-size: 0.67rem;
     }
@@ -574,7 +574,7 @@
         padding-bottom: 70px;
     }
 }
-@media screen and (max-width: 389px) and (min-width:340px) {
+@media screen and (max-width: 390px) and (min-width:340px) {
     html{
         font-size: 0.60rem;
     }
@@ -613,9 +613,7 @@
         padding-bottom: 6px;
     }
     .product-text {
-        width: 90px;
-        padding-top: 12px;
-        padding-bottom: 40px;
+      width: 90%;
     }
     /* figure.products-details {
         min-width: 130px;
