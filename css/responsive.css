@@ -183,6 +183,13 @@
     .eq {
         padding: 50px 0;
     }
+    figure.products-details {
+        min-width: 220px;
+        max-width: 300px;
+    }
+    .product-btn {
+        padding: 6px;
+    }
     .img-container {
         grid-auto-rows: 140px 240px;
         grid-gap: 5px;
@@ -232,7 +239,7 @@
     }
     .nav-bar ul li a {
         font-size: 1.2rem;
-        margin: 18px 6px;
+        margin: 18px 4px;
     }
     .nav-bar ul {
         display: none;
@@ -264,6 +271,13 @@
         width: 450px;
         padding-top: 12px;
         padding-bottom: 40px;
+    }
+    figure.products-details {
+        min-width: 210px;
+        max-width: 290px;
+    }
+    .product-btn {
+        padding: 6px;
     }
     .counter-number-wrapper {
        padding: 80px 20px;
@@ -349,6 +363,13 @@
         background: #A66953;
         color:#EFE1D6;
     }
+    figure.products-details {
+        min-width: 200px;
+        max-width: 290px;
+    }
+    .product-btn {
+        padding: 6px;
+    }
     .counter-number-wrapper {
         padding: 30px 20px;
     }
@@ -382,7 +403,7 @@
         margin-top: 14px;
     }
     .nav-bar ul li a {
-        font-size: 1.4rem;
+        font-size: 1.3rem;
     }
     .text-middle h2, .text-middle span:before {
         font-size: 2rem;
@@ -409,6 +430,13 @@
         width: 320px;
         padding-top: 12px;
         padding-bottom: 40px;
+    }
+    figure.products-details {
+        min-width: 150px;
+        max-width: 218px;
+    }
+    .product-btn {
+        padding: 5px;
     }
     .counter-number-wrapper {
         padding: 25px 20px;
@@ -456,7 +484,7 @@
         padding-bottom: 70px;
     }
 }
-@media screen and (max-width: 389px) and (min-width:320px) {
+@media screen and (max-width: 389px) and (min-width:340px) {
     html{
         font-size: 0.60rem;
     }
@@ -472,7 +500,8 @@
         width: 135px;
     }
     .nav-bar ul li a {
-        font-size: 1.3rem;
+        font-size: 1.1rem;
+        margin: 16px 4px;
     }
     .text-middle h2, .text-middle span:before {
         font-size: 1.9rem;
@@ -481,6 +510,13 @@
         width: 290px;
         padding-top: 12px;
         padding-bottom: 40px;
+    }
+    figure.products-details {
+        min-width: 130px;
+        max-width: 215px;
+    }
+    .product-btn {
+        padding: 5px;
     }
     .counter-number-wrapper {
        padding: 20px;
