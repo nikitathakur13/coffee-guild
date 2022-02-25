@@ -6,9 +6,14 @@
 	box-sizing:border-box;
 	outline:none;
 }
-@-ms-viewport{
-	width: device-width;
-  }
+@font-face {
+    font-family: 'futuracondensed_extra_bold';
+    src: url('futura_condensed_extra_bold-webfont.woff2') format('woff2'),
+         url('futura_condensed_extra_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 html {
 	font-size: 1rem;
 }
@@ -99,7 +104,7 @@ header {
 	text-decoration: none;
 	cursor: pointer;
 	font-size: 1rem;
-	font-family: Futura;
+	font-family: 'futuracondensed_extra_bold';
 	margin: 0 20px;
 	letter-spacing: 1px;
 }
@@ -148,14 +153,6 @@ header {
 	color: #402312;
 }
 .text-middle .change-text {
-	/* content: 'Amazing';
-	animation-name: word-switch;
-	-webkit-animation-name: word-switch;
-	animation-duration: 4s;
-	-webkit-animation-duration: 4s;
-	animation-iteration-count:infinite;
-	-webkit-animation-iteration-count:infinite; */
-	/* -webkit-animation: word-switch 4s infinite; */
 	font-style: italic;
 	display: inline-block;
 	font-size: 4rem;
@@ -355,9 +352,9 @@ figure.products-details.hover:after {
 	margin-bottom: 160px;
 	min-height: fit-content;
 }
-/* .counter-number-wrapper {
+.counter-number-wrapper {
 	padding: 100px 20px;
-} */
+}
 .counter-number-wrapper i {
 	display: inline;
 	font-size: 1.1rem;
