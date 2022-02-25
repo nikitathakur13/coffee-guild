@@ -223,6 +223,8 @@ header {
 /********** OUR PRODUCTS STARTS **********/
 .our-products {
 	padding-bottom: 160px;
+	/* width: 1920px;
+	margin: 0px auto; */
 }
 .our-products-wrapper {
 	display: flex;
@@ -230,6 +232,7 @@ header {
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
+	flex: 4;
 }
 figure.products-details {
     position: relative;
